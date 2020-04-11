@@ -14,7 +14,8 @@ function checkPattern()
 	fi
 }
 
-#check pin code contain 6 digit 
+#check pin code contain 6 digit & restricted for alphabets and Numeric character
 read -p "enter pin number:" pincode
 checkPattern $pincode $PIN_CODE_IS_SIX_DIGIT
+
 
